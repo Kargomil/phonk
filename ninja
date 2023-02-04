@@ -1,5 +1,5 @@
 local playerHead = game:GetService('Players').LocalPlayer.Character:FindFirstChild('Head')
-for i, v in pairs(game:GetService("Workspace").sellAreaCircles:GetDescendants()) do
+for i, v in pairs(game:GetService("Workspace").sellAreaCircles.sellAreaCircle16.circleInner:GetDescendants()) do
     if v.Name == "TouchInterest" and v.Parent then 
 
 		firetouchinterest(playerHead,v.Parent,0)
